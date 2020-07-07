@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family:monospace;
+  background:#303030;
+}
+
+.body {background:#303030}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.divTable { display:  table; }
+.divRow { display:table-row; }
+.divRow > div {
+	float:left;/*fix for  buggy browsers*/
+	display:block;
+	width:1vh;
+	height:1vh;
+}
+.logoBackground { background: black; }
+.logoFontcolor { background: white;}
