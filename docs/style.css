@@ -1,8 +1,11 @@
 * {
   padding: 0;
   margin: 0;
-  font-family:monospace;
+  font-family:sans-serif;
   background:#303030;
+  color: #FFA500;
+  text-align: center;
+  font-size: 2vh;
 }
 
 .body {background:#303030}
@@ -23,3 +26,12 @@
 }
 .logoBackground { background: black; }
 .logoFontcolor { background: white;}
+
+#AppName { font-size: 5vh; }
+#AppNameLooselyTranslated {
+	font-size: 2.5vh;
+	font-style:italic;
+}
+#PlannedReleases { color: #808080; }
+
+
