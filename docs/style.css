@@ -4,19 +4,21 @@
   font-family:sans-serif;
   background:#303030;
   color: #FFA500;
-  text-align: center;
   font-size: 1.5vh;
-}
-
-.body {background:#303030}
-.centerHorizontally {
   margin-left: auto;
   margin-right: auto;
+}
+
+#bodyContentReducedWidth{
+	width: 40vh;
+}
+.body {
+	background:#303030;
 }
 .divTable { display:  table; }
 .divRow { display:table-row; }
 .divRow > div {
-	float:left;/*fix for  buggy browsers*/
+	float:left;/*fix for some browsers*/
 	display:block;
 	width:1vh;
 	height:1vh;
@@ -24,11 +26,16 @@
 .logoBackground { background: black; }
 .logoFontcolor { background: white;}
 
-#AppName { font-size: 5vh; }
+#AppName { 
+	font-size: 5vh; 
+	text-align: center;
+}
 #AppNameLooselyTranslated {
 	font-size: 2.5vh;
 	font-style:italic;
+	text-align: center;
+
 }
-#PlannedReleases { color: #808080; }
+#PlannedReleases, #PlannedReleases * { color: #808080; }
 
 
