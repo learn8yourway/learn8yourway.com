@@ -10,7 +10,7 @@
 }
 
 #bodyContentReducedWidth{
-	width: 40vh;
+  max-width: 55vh;
 }
 .body {
 	background:#303030;
