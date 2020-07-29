@@ -39,7 +39,7 @@
 #PlannedReleases, #PlannedReleases * { color: #808080; }
 
 .badges, .badges * {
-	max-width: 30vh;
+	width: 25vh;
 }
 
 
