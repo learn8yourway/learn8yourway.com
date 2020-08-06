@@ -21,7 +21,7 @@
 	display: block;
 }
 
-#topbarRightCell { width: 51.5vh; /* topbar = logo + appname */ }
+#topbarRightCell { width: 50vh; /* topbar = logo + appname */ }
 .black { background: black; width: 0.5vh; height: 0.5vh; }
 .white { background: white; width: 0.5vh; height: 0.5vh;  }
 
