@@ -6,39 +6,39 @@
   color: #FFA500;
   margin-left: auto;
   margin-right: auto;
-}
-
-#bodyContentReducedWidth{
   max-width: 65vh;
 }
 .body {
 	background:#303030;
 }
-.logoDivTable { display:  table; }
-.logoRow { display:table-row; }
-.logoRow > div {
-	float: left;/*fix for some browsers*/
+
+.maxWidth { width: 65vh;}
+.table { display:  table; }
+.tableRow { display: table-row; }
+.tableRow > * {	
+	float: left; /*fix for some browsers*/
 	display: block;
-	width: 10px;
-	height: 10px;
 }
-.black { background: black; }
-.white { background: white; }
+
+#topbarRightCell { width: 56.5vh; /* topbar = logo + appname */ }
+.black { background: black; width: 0.5vh; height: 0.5vh; }
+.white { background: white; width: 0.5vh; height: 0.5vh;  }
+
 
 #AppName { 
-	font-size: 3rem;
+	font-size: 4.5vh;
 	font-weight: bold;
 	text-align: center;
 }
 #AppNameLooselyTranslated {
-	font-size: 1.5rem;
+	font-size: 2.5vh;
 	font-style: italic;
 	text-align: center;
-
 }
 
 .badges, .badges * {
 	width: 250px;
+	max-width: 50vw;
 }
 
 .topnav {
@@ -51,7 +51,6 @@
   text-align: center;
   padding: 1rem 1rem;
   text-decoration: none;
-  font-size: 1rem;
 }
 
 .topnav a:hover {
