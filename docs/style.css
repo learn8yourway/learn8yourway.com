@@ -4,14 +4,12 @@
   font-family:sans-serif;
   background: #303030;
   color: #FFA500;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 60vh;
 }
 .body { background:#303030; }
-.body * { font-size: 1.1rem; }
 
-.maxWidth { width: 60vh;}
+.center { margin-left: auto; margin-right: auto; }
+.textbody { max-width: 60vh; padding: 10px; }
+
 .table { display:  table; }
 .tableRow { display: table-row; }
 .tableRow > * {	
@@ -19,18 +17,18 @@
 	display: block;
 }
 
-#topbarRightCell { width: 50vh; /* topbar = logo + appname */ }
-.black { background: black; width: 0.5vh; height: 0.5vh; }
-.white { background: white; width: 0.5vh; height: 0.5vh;  }
+.topbar { width: 100%; }
+#topbarRightCell { width: 70%; /* topbar = logo + appname */ }
+.black { background: black; width: 3px; height: 3px; }
+.white { background: white; width: 3px; height: 3px;  }
 
 
 #AppName { 
-	font-size: 4.5vh;
+	font-size: 28px;
 	font-weight: bold;
 	text-align: center;
 }
 #AppNameLooselyTranslated {
-	font-size: 2.5vh;
 	font-style: italic;
 	text-align: center;
 }
@@ -42,13 +40,15 @@
 
 .topnav {
   overflow: hidden;
+  display: block;
+  width: 100%;
 }
 
 .topnav a {
   float: left;
   color: #808080;
   text-align: center;
-  padding: 1rem 1rem;
+  padding: 10px 10px;
   text-decoration: none;
 }
 
