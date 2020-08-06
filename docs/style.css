@@ -8,12 +8,8 @@
   margin-right: auto;
   max-width: 60vh;
 }
-.body {
-	background:#303030;
-	font-size: 1rem;
-}
-
-p { font-size: 1rem; }
+.body { background:#303030; }
+.body * { font-size: 1.1rem; }
 
 .maxWidth { width: 60vh;}
 .table { display:  table; }
@@ -54,7 +50,6 @@ p { font-size: 1rem; }
   text-align: center;
   padding: 1rem 1rem;
   text-decoration: none;
-  font-size: 1rem;
 }
 
 .topnav a:hover {
