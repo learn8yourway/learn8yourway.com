@@ -7,9 +7,14 @@
 
 body { background:#303030; }
 
-h1, h2, h3, h4, h5, h6 {
-	font-style: italic;
+.segmentHeader {
+	font-weight: bold;
 	padding-top: 2rem;
+}
+.segmentBodyWrapper {
+	border: 1px solid gray;
+	padding: 10px;
+	border-radius: 5px;
 }
 .center { margin-left: auto; margin-right: auto; }
 .textbody { max-width: 70vh; padding: 2vw; }
