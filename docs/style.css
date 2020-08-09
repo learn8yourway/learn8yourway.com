@@ -7,6 +7,10 @@
 
 body { background:#303030; }
 
+h1, h2, h3, h4, h5, h6 {
+	font-style: italic;
+	padding-top: 2rem;
+}
 .center { margin-left: auto; margin-right: auto; }
 .textbody { max-width: 70vh; padding: 2vw; }
 
