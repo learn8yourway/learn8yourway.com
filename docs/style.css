@@ -117,23 +117,3 @@ body { background: #303030; }
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-
-#contactForm {
-	border: 1px solid #0074D9;
-	padding: 10px;
-}
-
-textarea, input {
-	background: black;
-	color: white;
-}
-
-#Display2007943448 > a {
-	background: #FFA500;
-	color: black;
-}
-
-#ff-submit-root {
-	background: black;
-	border: 1px solid #FFA500;
-}
