@@ -117,3 +117,34 @@ body { background: #303030; }
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
+#ff-compose {
+	border: 1px solid #0074D9 !important;
+	padding: 10px !important;
+}
+
+textarea, input {
+	background: black !important;
+	color: white !important;
+}
+
+.ff-file-upload a {
+	background: #FFA500 !important;
+	color: black !important;
+}
+
+#ff-submit-root {
+	background: black !important;
+	border: 1px solid #FFA500 !important;
+}
+
+.refresh {
+	float: right;
+	display:  inline-block;
+	color: #808080;
+	margin: 5px;
+}
+
+a:hover{
+	cursor: pointer;
+}
