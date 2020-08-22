@@ -148,3 +148,11 @@ textarea, input {
 a:hover{
 	cursor: pointer;
 }
+
+th, td {
+  padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}
