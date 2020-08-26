@@ -65,7 +65,7 @@ body { background: #303030; }
   text-decoration: none;
 }
 
-.topnav a:hover {
+.topnav a:hover:not(.active):not(#langButtonWithArrow) {
   background-color: #ddd;
   color: black;
 }
@@ -78,10 +78,6 @@ body { background: #303030; }
   position: relative;
   display: block;
   color: #808080;
-}
-#langButtonWithArrow {  
-  text-align: center;
-  padding: 10px;
 }
 #langLinks { display: none; position: absolute; right: 0; background: #303030; border: 1px solid #808080; padding: 3px; }
 #langWrapper:hover #langLinks { display: block; }
