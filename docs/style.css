@@ -79,7 +79,10 @@ body { background: #303030; }
   display: block;
   color: #808080;
 }
-
+#langButtonWithArrow {  
+  text-align: center;
+  padding: 10px;
+}
 #langLinks { display: none; position: absolute; right: 0; background: #303030; border: 1px solid #808080; padding: 3px; }
 #langWrapper:hover #langLinks { display: block; }
 #langWrapper * { color:  #808080;   text-decoration: none; }
