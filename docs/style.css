@@ -163,3 +163,8 @@ table {
 .moreOnHover:hover *:nth-child(2) {
   display: block;
 }
+
+.copyRightText {
+  margin-top: 30px;
+  text-align: center;
+}
