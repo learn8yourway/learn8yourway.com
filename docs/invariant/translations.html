@@ -288,6 +288,14 @@ Technische details:<br/>
 </table>
 <br/>
 <table border='1'>
+<tr><td colspan='2'>General/Hmmm__</td></tr>
+<tr><td nowrap>en-US</td><td>Hmmm...</td></tr>
+<tr><td nowrap>en-GB</td><td>Hmmm...</td></tr>
+<tr><td nowrap>nl-NL</td><td>Hmmm...</td></tr>
+<tr><td nowrap> ??-?? </td><td> ...... </td></tr>
+</table>
+<br/>
+<table border='1'>
 <tr><td colspan='2'>General/Search</td></tr>
 <tr><td nowrap>en-US</td><td>Search</td></tr>
 <tr><td nowrap>en-GB</td><td>Search</td></tr>
@@ -1190,43 +1198,58 @@ Het wordt gebruikt om stukjes text te vervangen in de Geheugentaak, Vraag, Hints
 <tr><td colspan='2'>ItemCreation/Info_Question</td></tr>
 <tr><td nowrap>en-US</td><td>This text (optionally with images) or image without text asks the user to give an answer.<br/>
 <br/>
-For language learning, the Question will probably only be a word or a "chunk". <br/>
+If the Question should be visible only 1 second (for example), type the following line:<br/>
+L8_MILLISECONDS = 1000<br/>
+The user can still type an answer into the textbox after that time.<br/>
+<br/>
+For language learning, the Question will probably only be a word or a "chunk".<br/>
+<br/>
+If you'd like to use HTML and CSS, use:<br/>
+begin html<br/>
+For learning vocabulary via sentences, you may like to <span style="text-decoration: underline">underline</span> text and use ______ (underscores).<br/>
+end html<br/>
 <br/>
 For math, you can use LaTeX like this:<br/>
 begin latex<br/>
 $$ \sin \frac{\pi}{x} = 1 $$<br/>
 end latex<br/>
-You can use $formula$ and \(formula\) for inline math and $$formula$$ and \[formula\] for display math.<br/>
+You can use $formula$ and \(formula\) for inline math and $$formula$$ and \[formula\] for display math.</td></tr>
+<tr><td nowrap>en-GB</td><td>This text (optionally with images) or image without text asks the user to give an answer.<br/>
 <br/>
 If the Question should be visible only 1 second (for example), type the following line:<br/>
 L8_MILLISECONDS = 1000<br/>
-The user can still type an answer into the textbox after that time.</td></tr>
-<tr><td nowrap>en-GB</td><td>This text (optionally with images) or image without text asks the user to give an answer.<br/>
+The user can still type an answer into the textbox after that time.<br/>
 <br/>
 For language learning, the Question will probably only be a word or a "chunk".<br/>
+<br/>
+If you'd like to use HTML and CSS, use:<br/>
+begin html<br/>
+For learning vocabulary via sentences, you may like to <span style="text-decoration: underline">underline</span> text and use ______ (underscores).<br/>
+end html<br/>
 <br/>
 For maths, you can use LaTeX like this:<br/>
 begin latex<br/>
 $$ \sin \frac{\pi}{x} = 1 $$<br/>
 end latex<br/>
-You can use $formula$ and \(formula\) for inline math and $$formula$$ and \[formula\] for display math.<br/>
-<br/>
-If the Question should be visible only 1 second (for example), type the following line:<br/>
-L8_MILLISECONDS = 1000<br/>
-The user can still type an answer into the textbox after that time.</td></tr>
+You can use $formula$ and \(formula\) for inline math and $$formula$$ and \[formula\] for display math.</td></tr>
 <tr><td nowrap>nl-NL</td><td>Deze text (eventueel met afbeeldingen) of afbeelding zonder text vraagt de gebruiker om antwoord te geven.<br/>
 <br/>
+Als de Vraag na (bijvoorbeeld) 1 seconde dient te verdwijnen, voeg dan de volgende regel toe:<br/>
+L8_MILLISECONDS = 1000<br/>
+De gebruiker kan na die tijd nog wel een antwoord invoeren.<br/>
+<br/>
 Voor het leren van talen is de Vraag waarschijnlijk alleen een woord of een woordcombinatie (een "chunk").<br/>
+<br/>
+Als je HTML en CSS wil gebruiken:<br/>
+begin html<br/>
+Voor het leren van woordjes in zinsverband wil je misschien woorden <span style="text-decoration: underline">onderstrepen</span> en ______ (laagstreepsjes) gebruiken.<br/>
+end html<br/>
 <br/>
 Voor wiskunde kan LaTeX op de volgende manier gebruikt worden:<br/>
 begin latex<br/>
 $$ \sin \frac{\pi}{x} = 1 $$<br/>
 end latex<br/>
-Gebruik $formule$ of \(formule\) voor wiskundige tekens in de tekstregel; $$formule$$ en \[formule\] zetten wiskundige tekens op een speciale regel.<br/>
-<br/>
-Als de Vraag na (bijvoorbeeld) 1 seconde dient te verdwijnen, voeg dan de volgende regel toe:<br/>
-L8_MILLISECONDS = 1000<br/>
-De gebruiker kan na die tijd nog wel een antwoord invoeren.</td></tr>
+Gebruik $formule$ of \(formule\) voor wiskundige tekens in de tekstregel; $$formule$$ en \[formule\] zetten wiskundige tekens op een speciale regel.</td></tr>
 <tr><td nowrap> ??-?? </td><td> ...... </td></tr>
 </table>
 <br/>
@@ -2263,6 +2286,14 @@ Hoeveel nieuwe + moeilijke items zou je willen bestuderen per (dagelijkse) leers
 </table>
 <br/>
 <table border='1'>
+<tr><td colspan='2'>Settings/Eq_MyAnswerIsTheSame</td></tr>
+<tr><td nowrap>en-US</td><td>But... my answer is the same!</td></tr>
+<tr><td nowrap>en-GB</td><td>But... my answer is the same!</td></tr>
+<tr><td nowrap>nl-NL</td><td>Maar... mijn antwoord is hetzelfde!</td></tr>
+<tr><td nowrap> ??-?? </td><td> ...... </td></tr>
+</table>
+<br/>
+<table border='1'>
 <tr><td colspan='2'>Settings/Required_Dropbox_token_</td></tr>
 <tr><td nowrap>en-US</td><td>Required: Dropbox token.</td></tr>
 <tr><td nowrap>en-GB</td><td>Required: Dropbox token.</td></tr>
@@ -2506,6 +2537,14 @@ Tip: als je in Dropbox een backup wil maken voor dit account, voer dan een groot
 </table>
 <br/>
 <table border='1'>
+<tr><td colspan='2'>Settings/Eqs_Which_of_the_following_answers_should_match_X_</td></tr>
+<tr><td nowrap>en-US</td><td>Which of the following answers should match {0}?</td></tr>
+<tr><td nowrap>en-GB</td><td>Which of the following answers should match {0}?</td></tr>
+<tr><td nowrap>nl-NL</td><td>Welk van de volgende antwoorden komt overeen met {0}?</td></tr>
+<tr><td nowrap> ??-?? </td><td> ...... </td></tr>
+</table>
+<br/>
+<table border='1'>
 <tr><td colspan='2'>Settings/Learning_goals</td></tr>
 <tr><td nowrap>en-US</td><td>Learning goals</td></tr>
 <tr><td nowrap>en-GB</td><td>Learning goals</td></tr>
@@ -2534,6 +2573,14 @@ Tip: als je in Dropbox een backup wil maken voor dit account, voer dan een groot
 <tr><td nowrap>en-US</td><td>When using the virtual math keyboard, you can still use a physical keyboard and - for example - make a fraction by just pressing "/". (Note: if this setting is turned on while not having a physical keyboard attached, then two virtual keyboards might appear.)</td></tr>
 <tr><td nowrap>en-GB</td><td>When using the virtual math keyboard, you can still use a physical keyboard and - for example - make a fraction by just pressing "/". (Note: if this setting is turned on while not having a physical keyboard attached, then two virtual keyboards might appear.)</td></tr>
 <tr><td nowrap>nl-NL</td><td>Wanneer je het virtuele wiskundige toetsenbord gebruikt, kun je nog steeds een fysiek toetsenbord gebruiken en bijvoorbeeld via het intypen van "/" een breuk maken. (Let op: als je deze instelling aan hebt staan terwijl er geen fysiek toetsenbord is aangesloten, dan kunnen er twee virtuele toetsenborden verschijnen.)</td></tr>
+<tr><td nowrap> ??-?? </td><td> ...... </td></tr>
+</table>
+<br/>
+<table border='1'>
+<tr><td colspan='2'>Settings/Eqs_If_your_answer_is_X_then_RedirectToSettings_UnicodeMaySurprise</td></tr>
+<tr><td nowrap>en-US</td><td>(If your answer is '{0}' then you will be redirected to the settings page, so that you can save these symbols should be considered equal. They are different according to Unicode.)</td></tr>
+<tr><td nowrap>en-GB</td><td>(If your answer is '{0}' then you will be redirected to the settings page, so that you can save these symbols should be considered equal. They are different according to Unicode.)</td></tr>
+<tr><td nowrap>nl-NL</td><td>(Als je antwoord '{0}' is, dan wordt je doorverwezen naar de instellingenpagina, zodat je daar kan opslaan dat deze symbolen als gelijk kunnen worden beschouwd. Deze symbolen zijn verschillend volgens Unicode.)</td></tr>
 <tr><td nowrap> ??-?? </td><td> ...... </td></tr>
 </table>
 <br/>
@@ -2576,6 +2623,14 @@ At answer checking, \times and \cdot are considered equal, whitespace is ignored
 <tr><td nowrap>en-US</td><td>Answer checking</td></tr>
 <tr><td nowrap>en-GB</td><td>Answer checking</td></tr>
 <tr><td nowrap>nl-NL</td><td>Antwoordcontrole</td></tr>
+<tr><td nowrap> ??-?? </td><td> ...... </td></tr>
+</table>
+<br/>
+<table border='1'>
+<tr><td colspan='2'>Settings/Eqs_Should_the_following_symbols_be_considered_equal_</td></tr>
+<tr><td nowrap>en-US</td><td>Should the following symbols be considered equal?</td></tr>
+<tr><td nowrap>en-GB</td><td>Should the following symbols be considered equal?</td></tr>
+<tr><td nowrap>nl-NL</td><td>Zouden de volgende symbolen als gelijk beschouwd moeten worden?</td></tr>
 <tr><td nowrap> ??-?? </td><td> ...... </td></tr>
 </table>
 <br/>
@@ -3010,9 +3065,17 @@ At answer checking, \times and \cdot are considered equal, whitespace is ignored
 </table>
 <br/>
 <table border='1'>
+<tr><td colspan='2'>WebsiteReferencesFromApp/You_may_have_found_a_bug_Please_report_it_via_X_</td></tr>
+<tr><td nowrap>en-US</td><td>You may have found a bug in this app. Please report it via {0}.</td></tr>
+<tr><td nowrap>en-GB</td><td>You may have found a bug in this app. Please report it via {0}.</td></tr>
+<tr><td nowrap>nl-NL</td><td>Je hebt misschien een fout in deze app ontdekt. Je kunt deze fout melden via {0}.</td></tr>
+<tr><td nowrap> ??-?? </td><td> ...... </td></tr>
+</table>
+<br/>
+<table border='1'>
 <tr><td colspan='2'>WebsiteReferencesFromApp/Development_Introduction</td></tr>
-<tr><td nowrap>en-US</td><td>Learn8 your way is still in development. There are several ways you can help!</td></tr>
-<tr><td nowrap>en-GB</td><td>Learn8 your way is still in development. There are several ways you can help!</td></tr>
+<tr><td nowrap>en-US</td><td>Learn8 your way keeps developing. There are several ways you can help!</td></tr>
+<tr><td nowrap>en-GB</td><td>Learn8 your way keeps developing. There are several ways you can help!</td></tr>
 <tr><td nowrap>nl-NL</td><td>Learn8 your way is steeds in ontwikkeling. Als je wil meehelpen, dan kan dat!</td></tr>
 <tr><td nowrap> ??-?? </td><td> ...... </td></tr>
 </table>
